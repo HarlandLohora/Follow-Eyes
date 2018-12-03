@@ -6,5 +6,6 @@ document.onmousemove = function(){
   for(let i = 0; i < 2; i++){
     iris[i].style.left = x;
     iris[i].style.top  = y;
+    iris[i].style.transform = "translate(-" + x + ",-" + y + ")";
   }
 }

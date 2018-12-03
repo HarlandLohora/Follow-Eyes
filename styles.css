@@ -1,0 +1,33 @@
+body{
+  background-color: #34495E;
+  margin          : 0;
+  padding         : 0;
+}
+.eyes{
+  position  : absolute;
+  text-align: center;
+  top       : 50%;
+  transform : translateY(-50%);
+  width     : 100%;
+}
+.eye{
+  background-color: #FFF;
+  border-radius   : 50%;
+  display         : inline-block;
+  height          : 120px;
+  margin          : 40px;
+  overflow        : hidden;
+  position        : relative;
+  width           : 240px;
+}
+.iris{
+  background-color: #000;
+  border          : 15px solid #333;
+  border-radius   : 50%;
+  height          : 40px;
+  left            :50%;
+  position        : absolute;
+  top             : 50%;
+  transform       : translate(-50%,-50%);
+  width           : 40px;
+}
